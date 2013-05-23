@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <title>calculator</title>
+        <link rel="stylesheet" href="stylesheets/reset.css" />
+        <link rel="stylesheet" href="stylesheets/calculator.css" />
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="scripts/calculator.js"></script>
+        <script src="scripts/calculator-ui.js"></script>
+    </head>
+    <body>
+        <div id="calculator">
+            <input id="lcd" type="text" maxlength="29" readonly />
+            
+            <input id="leftParenthesisButton"  class="button" type="button" value="" />
+            <input id="rightParenthesisButton" class="button" type="button" value="" />
+            <input id="percentButton"          class="button" type="button" value="" />
+            <input id="clearButton"            class="button" type="button" value="CE" />
+            
+            <input id="sevenButton"   class="button" type="button" value="7" />
+            <input id="eightButton"   class="button" type="button" value="8" />
+            <input id="nineButton"    class="button" type="button" value="9" />
+            <input id="divisonButton" class="button" type="button" value="÷" />
+            
+            <input id="fourButton"  class="button" type="button" value="4" />
+            <input id="fiveButton"  class="button" type="button" value="5" />
+            <input id="sixButton"   class="button" type="button" value="6" />
+            <input id="multiButton" class="button" type="button" value="×" />
+            
+            <input id="oneButton"   class="button" type="button" value="1" />
+            <input id="twoButton"   class="button" type="button" value="2" />
+            <input id="threeButton" class="button" type="button" value="3" />
+            <input id="minusButton" class="button" type="button" value="-" />
+            
+            <input id="zeroButton"  class="button" type="button" value="0" />
+            <input id="dotButton"   class="button" type="button" value="." />
+            <input id="equalButton" class="button" type="button" value="=" />
+            <input id="plusButton"  class="button" type="button" value="+" />
+        </div>
+    </body>
+</html>

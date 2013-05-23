@@ -1,0 +1,147 @@
+#calculator {
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    width: 370px;
+    height: 300px;
+    
+    border: solid 1px #777;
+    position: relative;
+}
+
+#lcd {
+    width: 348px;
+    height: 30px;
+    
+    font-size: 1.4em;
+    text-align: right;
+    
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#leftParenthesisButton {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+#rightParenthesisButton {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+
+#percentButton {
+    position: absolute;
+    top: 60px;
+    left: 190px;
+}
+
+#clearButton {
+    position: absolute;
+    top: 60px;
+    left: 280px;
+}
+
+#sevenButton {
+    position: absolute;
+    top: 105px;
+    left: 10px;
+}
+
+#eightButton {
+    position: absolute;
+    top: 105px;
+    left: 100px;
+}
+
+#nineButton {
+    position: absolute;
+    top: 105px;
+    left: 190px;
+}
+
+#divisonButton {
+    position: absolute;
+    top: 105px;
+    left: 280px;
+}
+
+#fourButton {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+
+#fiveButton {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+#sixButton {
+    position: absolute;
+    top: 150px;
+    left: 190px;
+}
+
+#multiButton {
+    position: absolute;
+    top: 150px;
+    left: 280px;
+}
+
+#oneButton {
+    position: absolute;
+    top: 195px;
+    left: 10px;
+}
+
+#twoButton {
+    position: absolute;
+    top: 195px;
+    left: 100px;
+}
+
+#threeButton {
+    position: absolute;
+    top: 195px;
+    left: 190px;
+}
+
+#minusButton {
+    position: absolute;
+    top: 195px;
+    left: 280px;
+}
+
+#zeroButton {
+    position: absolute;
+    top: 240px;
+    left: 10px;
+}
+
+#dotButton {
+    position: absolute;
+    top: 240px;
+    left: 100px;
+}
+
+#equalButton {
+    position: absolute;
+    top: 240px;
+    left: 190px;
+}
+
+#plusButton {
+    position: absolute;
+    top: 240px;
+    left: 280px;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+}
